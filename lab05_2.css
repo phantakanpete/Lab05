@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.2));
+    font-family: 'Advent Pro';
+}
+
+#container{
+    width: 300px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    width: 100%;
+    background: blue;
+    color: whitesmoke;
+    font-size: 30px;
+	font-weight: normal;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+	padding: 10px 20px;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+	font-weight: normal;
+    padding: 10px 20px;
+    margin: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ul li.checked {
+    background: gainsboro;
+    color: black;
+    text-decoration: line-through;
+}
+
+ul li:hover {
+    background: grey;
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.close {
+    float: right;   
+}
+
